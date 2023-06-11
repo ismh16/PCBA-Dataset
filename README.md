@@ -10,8 +10,5 @@ we upload full dataset on Baidu but part on Google
 please cite our paper while using the dataset
 ## format?
 yolo format, we will update when our paper is published
-### Do not use for commercial or other purpose!!
-For academic research only 
-### Do not use for commercial or other purpose!!
-For academic research only 
-### Do not use for commercial or other purpose!!
+### Do not use for commercial or other purpose without permission
+For academic research only or you can contact me
