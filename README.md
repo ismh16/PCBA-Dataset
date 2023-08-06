@@ -12,6 +12,7 @@ we have 4000 photos
 Yolo format, we will update when our paper is published
 ### About
 We photographed from three different angles: from above, from the side, and from a tilted angle.  
+
 ![photo angle](https://github.com/ismh16/PCBA-Dataset/blob/main/img/angle.jpg "angjpg")   
 
 And labeled 8 original defects    
