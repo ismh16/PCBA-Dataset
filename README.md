@@ -35,5 +35,4 @@ Distribution of defects in PCBA dataset as follows
 | Motherboard scratches | 3300 | 1100 |  
 
 ### Do not use for commercial or other purpose without permission
-For academic research only or you can contact u
-
+For academic research only or you can contact us
