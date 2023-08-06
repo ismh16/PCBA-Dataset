@@ -1,7 +1,7 @@
 # PCBA-Dataset
 This is a object detection dataset for PCBA defect detection
 ## Get
-You can use Baidu Netdisk to get the full dataset [PCBA Dataset](https://pan.baidu.com/s/1oqxFnLlQ9mj8aeHalj_U7Q) cryptographic: frqi
+You can use Baidu Netdisk to get the full dataset [PCBA Dataset](https://pan.baidu.com/s/1oqxFnLlQ9mj8aeHalj_U7Q) cryptographic: frqi   
 You can also get some sample datasets at Baidu Netdisk and Google Drive
 ## Cite
 Please cite our paper while using the dataset
