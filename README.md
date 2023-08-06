@@ -10,5 +10,10 @@ Please cite our paper while using the dataset
 we have 4000 photos
 ### Format
 Yolo format, we will update when our paper is published
+### About
+We photographed from three different angles: from above, from the side, and from a tilted angle.  
+![photo angle](https://github.com/ismh16/PCBA-Dataset/img/angle.jpg "angjpg")  
+Constructed and labeled 8 original defects  
+![photo category](https://github.com/ismh16/PCBA-Dataset/img/category.jpg "catejpg")   
 ### Do not use for commercial or other purpose without permission
 For academic research only or you can contact me
