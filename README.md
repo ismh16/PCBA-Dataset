@@ -1,4 +1,4 @@
-# PCBA-Dataset
+# PCBA-DET Dataset
 This is a object detection dataset for PCBA defect detection
 ## Get
 You can use Baidu Netdisk to get the full dataset [PCBA Dataset](https://pan.baidu.com/s/10hZjxxu--uDZelEBoqIAOw?pwd=17rh) 
