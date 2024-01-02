@@ -1,7 +1,7 @@
 # PCBA-DET Dataset
-This is a object detection dataset for PCBA defect detection
-The source code can be accessed in the pcba-yolo folder
-VOC dataset tags in txt format are available in get below
+This is a object detection dataset for PCBA defect detection  
+The source code can be accessed in the pcba-yolo folder  
+VOC dataset tags in txt format are available in get below  
 ## Get
 You can use Baidu Netdisk to get the full dataset [PCBA Dataset](https://pan.baidu.com/s/10hZjxxu--uDZelEBoqIAOw?pwd=17rh) 
 
