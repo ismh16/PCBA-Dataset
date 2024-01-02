@@ -3,7 +3,7 @@
 
 🥳The source code can be accessed in the pcba-yolo folder  
 
-👍VOC dataset tags in txt format are available in get below  
+👍VOC dataset tags in txt format are available in "GET" below  
 ## Get
 You can use Baidu Netdisk to get the full dataset [PCBA Dataset](https://pan.baidu.com/s/10hZjxxu--uDZelEBoqIAOw?pwd=17rh) 
 
