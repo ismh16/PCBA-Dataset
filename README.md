@@ -5,7 +5,6 @@
 
 👍VOC dataset tags in txt format are available in "GET" below  
 ## Get
-You can use Baidu Netdisk to get the full dataset [PCBA Dataset](https://pan.baidu.com/s/129Drcfg5XHHLTXZ_LqCNRw?pwd=iio1) 
 
 You can also get some sample datasets in [Baidu Netdisk](https://pan.baidu.com/s/1XdOV2nQaf4gQ6gUoJwEpFg?pwd=zxs6) or [Google Drive](https://drive.google.com/file/d/1lmMe3o7kZG67zcL2ZbJJFfXPpMLWzV2k/view?usp=sharing)
 
