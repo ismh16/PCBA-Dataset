@@ -9,6 +9,10 @@
 You can also get some sample datasets in [Baidu Netdisk](https://pan.baidu.com/s/1XdOV2nQaf4gQ6gUoJwEpFg?pwd=zxs6) or [Google Drive](https://drive.google.com/file/d/1lmMe3o7kZG67zcL2ZbJJFfXPpMLWzV2k/view?usp=sharing)
 
 You can get the voc dataset labels in yolo format in [Google drive](https://drive.google.com/file/d/1T0ogvDWhaGrODb6H5r4KLzpIeFMv5oQO/view?usp=drive_link)
+
+You can get the PCB defect dataset labels in yolo format in [Google drive](https://drive.google.com/file/d/1wJ94UB-0KCXy-Ytom7Yf5KwMV4io8Ghw/view?usp=drive_link)
+
+You can get the full PCBA-DET dataset in [Baidu Netdisk](https://pan.baidu.com/s/129Drcfg5XHHLTXZ_LqCNRw?pwd=iio1) code = iio1.
 ## Cite
 Please cite our paper while using the dataset
 ## About
