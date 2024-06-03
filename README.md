@@ -66,7 +66,10 @@ You can find the '--weights' parameter file in the `./pcba_yolo/weights/`
 
 You can resize K by changing the parameter in RepLKBlock in  `./models/common.py`  at line 1016 
 
-`self.m = nn.Sequential(*(RepLKBlock(c_, c_, 17, 5, 0.0, False) for _ in range(n)))`
+`self.m = nn.Sequential(*(RepLKBlock(c_, c_, 13, 5, 0.0, False) for _ in range(n)))`
+
+where the third parameter 13 is the size of K
+
 
 We provide yolov5s model, other models are available at [Google drive](https://drive.google.com/drive/folders/1pBx4lROqzg2e51HER2egHbjnAizgXbE8?usp=drive_link)
 
