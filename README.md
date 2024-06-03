@@ -47,7 +47,7 @@ Distribution of defects in PCBA dataset as follows
 ### Train
 You can train your own PCBA detection model with the following code:
 ```
-!python train.py --weights '/path/to/your/pre_trained/model.pt' --cfg 'pcba_yolo.yaml' --data 'mainBoard.yaml' --epochs 300 --batch-size 32
+!python train.py --weights 'path/to/your/pre_trained/model.pt' --cfg 'pcba_yolo.yaml' --data 'mainBoard.yaml' --epochs 300 --batch-size 32
 ```
 
 You can find the '--weights' parameter file in the `./pcba_yolo/weights/`
@@ -85,14 +85,14 @@ You can find the '--cfg' parameter file in the `./pcba_yolo/mdoel/`
 You can validate your detection model with the following code:
 
 ```
-!python val.py --data 'mainBoard.yaml' --weights '/path/to/your/model.pt' --batch-size 32 
+!python val.py --data 'mainBoard.yaml' --weights 'path/to/your/model.pt' --batch-size 32 
 ```
 
 ### Defect Detection
 You can use the following code for defect detection:
 
 ```
-!python val.py --data 'mainBoard.yaml' --weights '/path/to/your/model.pt' --batch-size 32 
+!python detect.py --weights 'path/to/your/model.pt' --source 'path/to/your/image' --data 'mainBoard.yaml'
 ```
 
 ## License
