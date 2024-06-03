@@ -14,7 +14,7 @@ You can get the PCB defect dataset labels in yolo format in [Google drive](https
 
 You can get the full PCBA-DET dataset in [Baidu Netdisk](https://pan.baidu.com/s/129Drcfg5XHHLTXZ_LqCNRw?pwd=iio1) code = iio1.
 
-Data augmentation data is available in [Baidu Netdisk](https://pan.baidu.com/s/129Drcfg5XHHLTXZ_LqCNRw?pwd=iio1) code = iio1.
+Data augmentation data is available in [Baidu Netdisk](链接：https://pan.baidu.com/s/1cxNSv6g9Uax3Uu9XECYddw?pwd=l3bd) code = l3bd.
 
 ## Cite
 Please cite our paper while using the dataset
