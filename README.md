@@ -58,9 +58,13 @@ You can find the '--weights' parameter file in the ./pcba_yolo/weight/
 | pcba_yolo_27.pt | PCBA-YOLO(K=27) |
 | replk_yolo.pt | Only replknet |
 | sppcspc_yolo.pt | Only sppcspc |
+| siou_yolo.pt | Only siou |
+| replk_sppcspc_yolo.pt | replknet and sppcspc |
+| replk_siou_yolo.pt | replknet and siou |
+| sppcspc_siou_yolo.pt | sppcspc and siou |
 | yolov5s.pt | YOLOv5s |
 
-We provide yolov5s model, other models are available at [Google drive](https://drive.google.com/file/d/1T0ogvDWhaGrODb6H5r4KLzpIeFMv5oQO/view?usp=drive_link)
+We provide yolov5s model, other models are available at [Google drive](https://drive.google.com/drive/folders/1pBx4lROqzg2e51HER2egHbjnAizgXbE8?usp=drive_link)
 
 You can find the '--cfg' parameter file in the ./pcba_yolo/mdoel/
 |  cfg  | model  |
@@ -72,6 +76,13 @@ You can find the '--cfg' parameter file in the ./pcba_yolo/mdoel/
 
 ### Validate
 You can validate your detection model with the following code:
+
+```
+!python val.py --data 'mainBoard.yaml' --weights '/path/to/your/model.pt' --batch-size 32 
+```
+
+### Defect Detection
+You can use the following code for defect detection:
 
 ```
 !python val.py --data 'mainBoard.yaml' --weights '/path/to/your/model.pt' --batch-size 32 
