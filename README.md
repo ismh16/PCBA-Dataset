@@ -13,6 +13,9 @@ You can get the voc dataset labels in yolo format in [Google drive](https://driv
 You can get the PCB defect dataset labels in yolo format in [Google drive](https://drive.google.com/file/d/1wJ94UB-0KCXy-Ytom7Yf5KwMV4io8Ghw/view?usp=drive_link)
 
 You can get the full PCBA-DET dataset in [Baidu Netdisk](https://pan.baidu.com/s/129Drcfg5XHHLTXZ_LqCNRw?pwd=iio1) code = iio1.
+
+Data augmentation data is available in [Baidu Netdisk](https://pan.baidu.com/s/129Drcfg5XHHLTXZ_LqCNRw?pwd=iio1) code = iio1.
+
 ## Cite
 Please cite our paper while using the dataset
 ## About
