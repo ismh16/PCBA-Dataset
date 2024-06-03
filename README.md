@@ -64,7 +64,7 @@ You can find the '--weights' parameter file in the ./pcba_yolo/weight/
 | sppcspc_siou_yolo.pt | sppcspc and siou |
 | yolov5s.pt | YOLOv5s |
 
-You can resize K by changing the parameter in RepLKBlock in common.py at line 1016 ``
+You can resize K by changing the parameter in RepLKBlock in common.py at line 1016 `self.m = nn.Sequential(*(RepLKBlock(c_, c_, 17, 5, 0.0, False) for _ in range(n)))`
 We provide yolov5s model, other models are available at [Google drive](https://drive.google.com/drive/folders/1pBx4lROqzg2e51HER2egHbjnAizgXbE8?usp=drive_link)
 
 You can find the '--cfg' parameter file in the ./pcba_yolo/mdoel/
