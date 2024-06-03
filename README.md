@@ -4,7 +4,7 @@
 🥳The source code can be accessed in the pcba-yolo folder  
 
 👍VOC dataset tags in txt format are available in "GET" below  
-## Get
+## Get Dataset
 
 You can also get some sample datasets in [Baidu Netdisk](https://pan.baidu.com/s/1XdOV2nQaf4gQ6gUoJwEpFg?pwd=zxs6) or [Google Drive](https://drive.google.com/file/d/1lmMe3o7kZG67zcL2ZbJJFfXPpMLWzV2k/view?usp=sharing)
 
@@ -42,6 +42,39 @@ Distribution of defects in PCBA dataset as follows
 | Missing fan wiring | 1400 | 1400 |
 | Fan scratches | 1300 | 1300 |
 | Motherboard scratches | 3300 | 1100 |  
+
+## Code
+### Train
+You can train your own PCBA detection model with the following code:
+
+'''
+!python train.py --weights '/path/to/your/pre_trained/model.pt' --cfg 'pcba_yolo.yaml' --data 'mainBoard.yaml' --epochs 300 --batch-size 32
+'''
+
+You can find the '--weights' parameter file in the ./pcba_yolo/weight/
+|  weight  | model  |
+|  :----:  | :----:  |
+| pcba_yolo_13.pt | PCBA-YOLO(K=13) |
+| pcba_yolo_17.pt | PCBA-YOLO(K=17) |
+| pcba_yolo_27.pt | PCBA-YOLO(K=27) |
+| replk_yolo.pt | Only replknet |
+| sppcspc_yolo.pt | Only sppcspc |
+| yolov5s.pt | YOLOv5s |
+We provide yolov5s model, other models are available at [Google drive](https://drive.google.com/file/d/1T0ogvDWhaGrODb6H5r4KLzpIeFMv5oQO/view?usp=drive_link)
+
+You can find the '--cfg' parameter file in the ./pcba_yolo/mdoel/
+|  cfg  | model  |
+|  :----:  | :----:  |
+| pcba_yolo.yaml | PCBA-YOLO |
+| replk_yolo.yaml | Only replknet |
+| sppcspc_yolo.yaml | Only sppcspc |
+| yolov5s.yaml | YOLOv5s |
+
+### Validate
+You can validate your detection model with the following code:
+'''
+!python train.py --weights 'path/to/your/pre_trained/model.pt' --cfg 'pcba_yolo.yaml' --data 'mainBoard.yaml' --epochs 260 --batch-size 32 --cache 'ram' --name 'yolov5m'
+'''
 
 ## License
 Do not use for commercial or other purpose without permission  
