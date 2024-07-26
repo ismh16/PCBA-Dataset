@@ -104,6 +104,6 @@ You can use the following code for defect detection:
 !python detect.py --weights 'path/to/your/model.pt' --source 'path/to/your/image' --data 'mainBoard.yaml'
 ```
 
-## License
-Do not use for commercial or other purpose without permission  
-For academic research only or you can contact us with <shenmh16@gmail.com>
+## License  
+For academic research only 
+You can contact us with <shenmh16@gmail.com>
