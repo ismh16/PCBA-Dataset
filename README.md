@@ -55,7 +55,7 @@ Distribution of defects in PCBA dataset as follows
 | Motherboard scratches | 3300 | 1100 |  
 
 ## Code
-### Train: <a href="#PCBA-YOLO(Based on YOLOv5)">PCBA-YOLO(Based on YOLOv5)</a> and <a href="#NEW! Lightweight YOLOv8 Model">Lightweight YOLOv8s</a>
+### Train: <a href="####PCBA-YOLO(Based on YOLOv5)">PCBA-YOLO(Based on YOLOv5)</a> and <a href="####NEW! Lightweight YOLOv8 Model">Lightweight YOLOv8s</a>
 
 #### PCBA-YOLO(Based on YOLOv5)
 You can train your own PCBA detection model with the following code:
