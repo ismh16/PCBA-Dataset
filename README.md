@@ -55,9 +55,9 @@ Distribution of defects in PCBA dataset as follows
 | Motherboard scratches | 3300 | 1100 |  
 
 ## Code
-### Train: <a href="####PCBA-YOLO(Based on YOLOv5)">PCBA-YOLO(Based on YOLOv5)</a> and <a href="####NEW! Lightweight YOLOv8 Model">Lightweight YOLOv8s</a>
+### Train: [PCBA-YOLO(Based on YOLOv5)](#pcba-yolo) and Lightweight YOLOv8s(lightweight-yolov8-model)
 
-#### PCBA-YOLO(Based on YOLOv5)
+#### PCBA-YOLO
 You can train your own PCBA detection model with the following code:
 ```
 !python train.py --weights 'path/to/your/pre_trained/model.pt' --cfg 'pcba_yolo.yaml' --data 'mainBoard.yaml' --epochs 300 --batch-size 32
@@ -94,7 +94,7 @@ You can find the '--cfg' parameter file in the `./pcba_yolo/mdoel/`
 | sppcspc_yolo.yaml | Only sppcspc |
 | yolov5s.yaml | YOLOv5s |
 
-#### NEW! Lightweight YOLOv8 Model 
+#### Lightweight YOLOv8 Model
 You can train your own PCBA detection model with running `./train.py`
 
 ### Validate
