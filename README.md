@@ -22,11 +22,13 @@ You can get the full PCBA-DET dataset in [Baidu Netdisk](https://pan.baidu.com/s
 
 Data augmentation data is available in [Baidu Netdisk](https://pan.baidu.com/s/1cxNSv6g9Uax3Uu9XECYddw?pwd=l3bd) code = l3bd.
 
+Data augmentation using attention-gan(fan scratch category) are available in [Baidu Netdisk](https://pan.baidu.com/s/15sOkQXefRDLk7-n8UEk97Q?pwd=sigi) code = sigi.
+
 ## Cite
 Please cite our paper while using the PCBA-DET dataset
 ## About
 ### Size
-we have 4000 photos
+We have 4,000 images and a total of 2,384 data augmented images!!
 ### Format
 Yolo format, we will update when our paper is published.
 ### About
@@ -53,7 +55,8 @@ Distribution of defects in PCBA dataset as follows
 | Motherboard scratches | 3300 | 1100 |  
 
 ## Code
-### Train
+### Train: PCBA-YOLO(Based on YOLOv5) and Lightweight YOLOv8s
+#### PCBA-YOLO(Based on YOLOv5)
 You can train your own PCBA detection model with the following code:
 ```
 !python train.py --weights 'path/to/your/pre_trained/model.pt' --cfg 'pcba_yolo.yaml' --data 'mainBoard.yaml' --epochs 300 --batch-size 32
@@ -89,6 +92,9 @@ You can find the '--cfg' parameter file in the `./pcba_yolo/mdoel/`
 | replk_yolo.yaml | Only replknet |
 | sppcspc_yolo.yaml | Only sppcspc |
 | yolov5s.yaml | YOLOv5s |
+
+#### NEW! Lightweight YOLOv8 Model 
+You can train your own PCBA detection model with running `./train.py`
 
 ### Validate
 You can validate your detection model with the following code:
