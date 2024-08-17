@@ -95,7 +95,22 @@ You can find the '--cfg' parameter file in the `./pcba_yolo/mdoel/`
 | yolov5s.yaml | YOLOv5s |
 
 #### Lightweight YOLOv8 Model
-You can train your own PCBA detection model with running `./train.py`
+You can train your own PCBA detection model with running `./train.py` in file `YOLOv8_Lightweight`
+
+You can find the '--cfg' parameter file in the `./ultralytics/cfg/models/v8`
+|  cfg  | model  |
+|  :----:  | :----:  |
+| yolov8-replk-ghost-p2.yaml | Our lightweight model |
+| yolov8-ghost-p2.yaml | Without replknet |
+| yolov8-replk-p2.yaml | Without ghostnet |
+| yolov8-replk-ghost.yaml | Without p2 layer |
+| yolov8-replk.yaml | Only replknet |
+| yolov8-ghost.yaml | Only ghostnet |
+| yolov8-p2.yaml | Only p2 layer |
+| yolov8.yaml | YOLOv8 |
+
+Pretrained models are available at [Google drive](https://drive.google.com/file/d/14Aoy6RMQSxu92KAahizqJoCW-PTPJ5Dd/view?usp=sharing)
+Where yolov8_replk_ghost_p2_agu.pt is the augmented lightweight model
 
 ### Validate
 You can validate your detection model with the following code:
