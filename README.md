@@ -110,6 +110,7 @@ You can find the '--cfg' parameter file in the `./ultralytics/cfg/models/v8`
 | yolov8.yaml | YOLOv8 |
 
 Pretrained models are available at [Google drive](https://drive.google.com/file/d/14Aoy6RMQSxu92KAahizqJoCW-PTPJ5Dd/view?usp=sharing)
+
 Where yolov8_replk_ghost_p2_agu.pt is the augmented lightweight model
 
 ### Validate
