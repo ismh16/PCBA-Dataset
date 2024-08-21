@@ -25,7 +25,8 @@ Data augmentation data is available in [Baidu Netdisk](https://pan.baidu.com/s/1
 Data augmentation using attention-gan(fan scratch category) are available in [Baidu Netdisk](https://pan.baidu.com/s/15sOkQXefRDLk7-n8UEk97Q?pwd=sigi) code = sigi.
 
 ## Cite
-Please cite our paper while using the PCBA-DET dataset
+Please cite our [paper](https://www.nature.com/articles/s41598-024-70176-1) "Defect detection of printed circuit board assembly based on YOLOv5" while using the PCBA-DET dataset
+
 ## About
 ### Size
 We have 4,000 images and a total of 2,384 data augmented images!!
