@@ -27,11 +27,11 @@ Data augmentation using attention-gan(fan scratch category) are available in [Ba
 ## Cite
 Please cite our [paper](https://www.nature.com/articles/s41598-024-70176-1) while using the PCBA-DET dataset or related research
 
-Shen, M., Liu, Y., Chen, J. et al. Defect detection of printed circuit board assembly based on YOLOv5. Sci Rep 14, 19287 (2024). https://doi.org/10.1038/s41598-024-70176-1
+[1]Shen, M., Liu, Y., Chen, J. et al. Defect detection of printed circuit board assembly based on YOLOv5. Sci Rep 14, 19287 (2024). https://doi.org/10.1038/s41598-024-70176-1
 
 A recent [paper](https://www.ecice06.com/CN/10.19678/j.issn.1000-3428.0070196) on YOLOv8 improvements should also be consulted.
 
-沈明辉,刘宇杰,陈婧,等.基于改进YOLOv8s轻量化网络的组装电脑主板缺陷检测算法[J/OL].计算机工程,1-14[2025-01-10].https://doi.org/10.19678/j.issn.1000-3428.0070196.
+[2]沈明辉,刘宇杰,陈婧,等.基于改进YOLOv8s轻量化网络的组装电脑主板缺陷检测算法[J/OL].计算机工程,1-14[2025-01-10].https://doi.org/10.19678/j.issn.1000-3428.0070196.
 
 ## About
 ### Size
